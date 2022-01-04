@@ -1,0 +1,515 @@
+*
+{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+html
+{
+	scroll-behavior: smooth;
+}
+body
+{
+	font-family:  Calibri, 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+}
+header
+{
+	width: 100%;
+	height: 100vh;
+	background-image: url(Pictures/emile-perron-xrVDYZRGdw4-unsplash.jpg);
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/* background-attachment: fixed; */
+}
+#portfolio
+{
+	font-size: 50px;
+	font-family: calibri;
+	font-weight: bold;
+	color: orange;
+
+}
+#portfolio img
+{
+	width: 35px;
+}
+nav div span
+{
+	color: white;
+}
+#menu_bar a
+{
+	font-size: x-large;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 5px 20px;
+	/* margin: 10px; */
+	color: orange;
+	
+}
+
+#menu_bar a:hover
+{
+	color: white;
+	background-color: orange;
+	border-radius: 10px;
+	transition: .6s;
+}
+nav{
+	width: 100%;
+	height: 80px;
+	top:0px;
+	background-color: rgb(0, 0, 0,0.9);
+	z-index: 999;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px;
+	position: fixed;
+}
+
+#my_intro
+{
+	width: 50%;
+	height: 200px;
+	color: white;
+	top:250px;
+	left: 200px;
+	position: absolute;
+	font-weight: bolder;
+}
+#my_intro p
+{
+	font-size: x-large;
+}
+#my_intro h1
+{
+	font-size: 60px;
+}
+h1 span
+{
+	color: orange;
+}
+#hire_button
+{
+	background-color: orange;
+	border:none;
+	outline: none;
+	width: 100px;
+	padding: 10px;
+	font-size: 20px;
+	margin-top: 10px;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+	transition: width 1s;
+	-o-transition-timing-function: default;
+	cursor: pointer;
+}
+#hire_button:hover
+{
+	width: 120px;
+}
+#myself
+{
+	background-color: #494848;
+	color: white;
+	padding:20px;
+	text-align: center;
+
+}
+.aboutme
+{
+	width: 100%;
+	/* height: 35vh; */
+	background-color: #494848;
+	/* background-color: #44454A; */
+	display: flex;
+	justify-content: center;
+	text-align: left;
+	align-items: center;
+	align-content: center;
+	padding-bottom: 10px;
+}
+#about1
+{
+	margin: 20px;
+}
+#about1 img
+{
+	width: 100px;
+	height: 110px;
+	border-radius: 100px;
+	outline: none;
+	border: none;
+	margin-bottom: 10px;
+}
+#about1 button
+{
+	color: white;
+	font-weight: bold;
+	background-color: orange;
+	border: none;
+	outline: none;
+	padding: 5px;
+	border-radius: 4px;
+}
+#about2
+{
+	/* font-weight: bold; */
+	line-height: 23px;
+	color: silver;
+}
+#about2 h1, h3
+{
+	color: orange;
+}
+progress[value]
+{
+	width: 100%;
+	height: 30px;
+	appearance: none;
+	
+}
+progress[value]::-webkit-progress-bar
+{
+	background-color: whitesmoke;
+	box-shadow: 0px 3px 4px 5px grey inset;
+}
+progress[value]::-webkit-progress-value
+{
+	/* background-color: orange; */
+	background-image:
+	-webkit-linear-gradient(left, #FFD500, orange);
+}
+#skills_section
+{
+	width: 100%;
+	/* height: 65vh; */
+	padding-bottom: 20px;
+	background-image: url(Pictures/imageedit_1_6638930964.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+	color: white;
+}
+#skills_section div h1
+{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	padding-top: 20px;
+}
+#skill
+{
+	width: 40%;
+	margin: 25px auto 0 auto;
+	font-weight: bold;
+	font-style: italic;
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+#ms
+{
+	text-align: center;
+	font-size: 20px;
+	padding-top: 20px;
+	
+}
+.services
+{
+	display: flex;
+	justify-content: center;
+	padding: 30px 100px 10px 100px;
+}
+#service
+{
+	text-align: center;
+	width: 30%;
+	/* flex-basis: 50%; */
+	padding: 10px 25px;
+	font-size: 20px;
+	margin: 0 10px;
+	box-shadow: 3px 4px 5px 6px grey;
+	
+}
+
+.services img
+{
+	width: 90px;
+}
+#service h2
+{
+	font-style: italic;	
+	color:rgb(57, 221, 233);
+	text-decoration: underline;
+}
+#service h2:hover
+{
+	color: indianred;	
+}
+#service p
+{
+	font-size: 22px;
+	font-style: italic;
+	transition: 1s;
+	/* text-align: justify; */
+}
+#service:hover
+{
+	background-color: orange;
+	color: white;
+}
+#contactme
+{
+	text-align: center;
+	padding: 50px 0;
+	font-weight: bold;
+	font-size: 40px;
+	color: white;
+	font-family:  Calibri, 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+}
+input[type=text]
+{
+	width: 100%;
+	height: 24px;
+	padding: 5px;
+	font-size: small;
+	margin-bottom: 3px;
+	border: 1px solid orange;
+	outline: none;
+}
+textarea
+{
+	width: 100%;
+	padding: 5px;
+	border: 1px solid orange;
+	outline:none;
+}
+
+#contact_section div button
+{
+	width: 100%;
+	font-size: small;
+	font-weight: bold;
+	background-color: orange;
+	border:none;
+	outline: none;
+	padding: 5px;
+	color: white;
+	cursor: pointer;
+}
+#contact_section 
+{
+	width: 100%;
+	height: 70vh;
+	display:flex;
+	justify-content: space-around;
+	/* background: linear-gradient(160deg, orange 45%, white 0%); */
+}
+#contact1
+{
+	font-weight: bold;
+	line-height: 30px;
+}
+#contact1 img
+{
+	margin-bottom: -8px;
+}
+#contact2
+{
+	margin-top: 150px;
+}
+.last_section
+{
+	background: linear-gradient(153deg, orange 55%, white 0%);
+	margin-top: 30px;
+}
+#thumb
+{
+	/* width: 300px; */
+	
+}
+footer
+{
+	width: 100%;
+	height: 10vh;
+	background-color: orange;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 20px;
+	color: white;
+}
+footer img
+{
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
+}
+#mobile_navbar
+{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 770px)
+{
+	header
+	{
+		background: url(Pictures/pexels-sora-shimazaki-5926397.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	#mobile_navbar
+	{
+		position: fixed;
+		top: 0;
+		right: 0;
+		width: 0px;
+		height: 100vh;
+		background: rgba(0, 0, 0, 0.8);
+		padding-top: 100px;
+		display: block;	
+		transition: 0.7s;
+		z-index: 999;
+	}
+	#mobile_navbar a
+	{
+		text-decoration: none;
+		color: white;
+		font-size: 30px;
+		display: block;
+		padding: 15px 0 15px 25px;
+		font-weight: bold;
+	}
+	#mobile_navbar a:hover
+	{
+		background:orange;
+		transition: 1s;
+
+	}
+	#menuformobile
+	{
+		width: 50px;
+		position: fixed;
+		top: 30px;
+		right: 30px;
+		cursor: pointer;
+	}
+	#menu_bar a{display:none;}
+	#my_intro
+	{
+		color: white;
+		left: 100px;
+		font-weight: bolder;
+	}
+	#my_intro p
+	{
+		font-size: large;
+	}
+	#my_intro h1
+	{
+		font-size: 50px;
+	}
+	h1 span
+	{
+		color: orange;
+	}
+	.aboutme
+	{
+		width: 100%;
+		background-color: #494848;
+		display: block;
+		text-align: center;	
+		padding: 20px;
+	}
+	.services
+{
+	display: block;
+	padding:10px;
+}
+#skill{
+	width:80%;
+}
+#service
+{
+	text-align: center;
+	width: 100%;
+	/* flex-basis: 100%; */
+	padding: 10px 15px;
+	/* font-size: 20px; */
+	margin: 20px 0px;
+	box-shadow: 3px 4px 5px 6px grey;
+	
+}
+
+.services img
+{
+	display: none;
+}
+#service p
+{
+	font-size: 15px;
+	font-style: italic;
+	transition: 1s;
+}
+.last_section
+{
+	background: linear-gradient(113deg, orange 55%, white 0%);
+	margin-top: 30px;
+}
+#contact_section 
+{
+	width: 100%;
+	height: 70vh;
+	display:flex;
+	justify-content: space-around;
+	padding: 25px;
+}
+footer h2
+{
+	font-size: 15px;
+}
+.last_section
+{
+	margin-top: 30px;
+	background: orange;
+}
+#contact_section
+{
+	width:100%;
+	height: 70vh;
+	display: block;
+}
+#contact2
+{
+	margin-top: 40px;
+}
+#contact_section div button
+{
+	width: 100%;
+	font-size: small;
+	font-weight: bold;
+	background-color: white;
+	border:none;
+	outline: none;
+	padding: 5px;
+	color: orange;
+	cursor:pointer;
+}
+
+}	
